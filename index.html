@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password strength checked</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/app.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>Kiểm Tra Độ Bảo Mật Của Mật Khẩu</header>
+      <form action="#">
+        <div class="field">
+          <input onkeyup="trigger()" type="password" placeholder="Hãy Nhập Mật Khẩu" />
+          <span class="showBtn">Hiển</span>
+        </div>
+        <div class="indicator">
+          <span class="yeu"></span>
+          <span class="binh-thuong"></span>
+          <span class="manh"></span>
+        </div>
+        <div class="text"></div>
+      </form>
+    </div>
+  </body>
+  <script src="./main.js"></script>
+</html>
